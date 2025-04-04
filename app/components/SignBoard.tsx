@@ -10,20 +10,18 @@ type signDataType = {
 
 }
 
- const signs = [
+const signs: signDataType[] = [
     {
         engName: "lums university",
         urduName: "lums یونیورسٹی",
-        tailwindcolor : "bg-blue-500"
+        tailwindcolor: "bg-blue-500"
     },
     {
         engName: "DHA phase 5 ,6",
         urduName: "ڈی ایچ اے فیز 5 ،6",
-        tailwindcolor : "bg-teal-600"
-    } ,
-    
-
- ]
+        tailwindcolor: "bg-teal-600"
+    },
+];
 
 const Sign = ( data:signDataType ) => {
     return (
